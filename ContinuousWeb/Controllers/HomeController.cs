@@ -17,7 +17,8 @@ namespace ContinuousWeb.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            throw new NotImplementedException();
+            // return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
